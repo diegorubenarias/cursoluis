@@ -8,6 +8,10 @@ public class StringUtils {
 		
 	}
 	
+	/**
+	 * 
+	 * @return frase leida desde keiboard
+	 */
 	public static String leerFrase() {
 		return Input.getInstance().leerFrase();
 	}
